@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #e79292;
 }
 
 .container {
@@ -13,23 +13,27 @@ body {
 }
 
 .input-section {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 input {
-    padding: 5px;
+    padding: 30px;
     margin: 0 10px;
+    border: 2px solid #8f0be7cc;
+    border-radius: 5px;
+    font-size: 1.6em;
 }
 
 button {
-    padding: 5px 10px;
+    padding: 20px 10px;
     cursor: pointer;
+    font-size: large;
 }
 
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
-    grid-gap: 5px;
+    grid-gap: 30px;
     margin-bottom: 20px;
 }
 
@@ -37,7 +41,7 @@ button {
     width: 100px;
     height: 100px;
     background-color: white;
-    border: 2px solid #333;
+    border: 4px solid #8f0be7cc;
     display: flex;
     align-items: center;
     justify-content: center;
